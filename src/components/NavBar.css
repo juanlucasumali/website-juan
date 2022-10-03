@@ -1,0 +1,93 @@
+/* Setting up box size. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Setting up NavBar site icon css. */
+.site-icon {
+  transform: translate(-3em, 0.45em);
+  height: 1.6em;
+  width: 1.6em;
+  border-radius: 50em;
+  display: flex;
+  position: relative;
+  
+  background-color: #191919;
+}
+
+.site-icon:hover {
+  background-color: #ED9562;
+  box-shadow: 0px 0px 14px 7px #ed956293;
+  cursor:none;
+}
+
+.site-icon:active {
+  background-color: #ED9562;
+}
+
+
+/* Setting up NavBar css. */
+.navbar {
+  position: fixed;
+  background-color: #E5E5E5;
+  width: 100em;
+  color: #191919; 
+  
+  display: flex;
+  align-items: baseline;
+
+  gap: 2rem;
+  padding: 0 5.5em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  z-index: 1;
+}
+
+/* CSS for the NavBar 'lists'. */
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  margin-left: -2em;
+  list-style: none;
+  display: flex;
+  gap: 2.5em;
+  position: relative;
+
+  transform: translate(-3em, 0);
+}
+
+/* Styling NavBar anchortag. */
+.navbar a{
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-style: oblique;
+  color: inherit; /* Initializing the text color as inherit allows for state changes (active and hover) */
+  cursor:none;
+  margin-bottom: 0.9em;
+}
+
+.navbar li {
+  padding-bottom: .8em;
+  position: relative;
+}
+
+/* Styling for when a NavBar item is active. */
+.navbar li:active{
+  color:#ED9562;
+}
+
+/* Styling for when a NavBar item is hovered over. */
+.navbar li:hover{
+  color:#ED9562;
+}
+
+
+
