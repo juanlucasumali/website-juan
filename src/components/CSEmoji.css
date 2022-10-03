@@ -1,8 +1,8 @@
-.flag-show {
-    transform: translate(21em, -5em)
+.cs-show {
+    transform: translate(13em, -13em)
 }
 
-.flag-emoji {
+.cs-emoji {
     width: 1em;
     height: 1em;
     margin:auto;
@@ -11,7 +11,7 @@
     opacity: 0;
   }
 
-  .flag-emoji:hover {
+  .cs-emoji:hover {
     width: 1em;
     height: 1em;
     margin:auto;
@@ -22,8 +22,8 @@
 
   }
 
-#flag-cloud {
-    background-color: rgb(255, 93, 93);
+#cs-cloud {
+    background-color: #ad31ad;
     width:3em;
     height:3em;
     filter:blur(1em);
@@ -36,8 +36,8 @@
     animation: pulse-in 2s infinite ease-in-out;
 }
 
-#flag-cloud:hover {
-    background-color: rgb(255, 93, 93);
+#cs-cloud:hover {
+    background-color: #ad31ad;
     width:3em;
     height:3em;
     filter:blur(1em);
@@ -50,25 +50,25 @@
     transition: 1.1s;
 }
 
-.flag-text {
-    transform: translate(15em, -26em);
-    width:fit-content;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-style: oblique;
-    color: rgba(255, 181, 181, 0.647);
-    text-align: left;
-    animation: appear 0.3s ease-in;
-    transition: 1.1s;
-}
-
-.flag-text-after {
+.cs-text {
     transform: translate(15em, -26em);
     width: 20em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: oblique;
-    color: rgba(255, 181, 181, 0.647);
+    color: #e53ee5ce;
+    text-align: left;
+    animation: appear 0.3s ease-in;
+    transition: 1.1s;
+}
+
+.cs-text-after {
+    transform: translate(15em, -26em);
+    width: 20em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    color: #e53ee5ce;
     text-align: left;
     animation: disappear 0.3s ease-out;
     animation-fill-mode: forwards;

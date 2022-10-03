@@ -4,25 +4,19 @@ body {
 }
 
 .url {
-
     cursor: url(/Users/juanlucasumali/Desktop/berkeley/codebase/mentoredfa22/personal-website/my-app/src/teeny.png), auto;}
-
+    
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
   }
 
 .emojis-bro {
     transform: translate(0, 50em);
 }
 
-.about {
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    transform: translate(0, -8em);
-}
-
-.first-box {
+#first-box {
     text-align: center;
     margin: auto;
     padding-top: 20em;
@@ -37,7 +31,7 @@ body {
     filter:blur(2em);
     border-radius: 50%;
     margin:auto;
-    transform: translate(-2.7em, -2em);
+    transform: translate(-2.7em, 24em);
     z-index:-1;
     transition: 1.1s;
     animation: pulse-in 2s infinite ease-in-out;
@@ -57,7 +51,7 @@ body {
 #first-words {
     color: #191919; 
     text-align: center;
-    transform:translate(0, -6.1em);
+    transform:translate(0, 12.3em);
     margin: 4em, 0;
     transition: 0.5s;
     font-size: 1.4em;
@@ -66,7 +60,7 @@ body {
 }
 
 .first-ones:hover #cloud {
-    transform: scale(1.5) translate(-1.8em, -1.4em);
+    transform: scale(1.5) translate(-1.8em, 16.1em);
     animation: pulse-in 2s infinite ease-in-out;
 }
 
@@ -76,35 +70,75 @@ body {
 }
 
 .arrow-box {
-    transform: translate(0, -11em);
-}
-
-
-.arrow-box {
-    width: 1em;
-    transform: scale(1.5) translate(0em, -7em);
+    width: 3em;
+    height: 2em;
+    transform: scale(1.5) translate(1em, 26em);
     margin: auto;
     animation: move 2s infinite ease-in-out;
     color:#ED9562;
-    transition: 0.3s;
+    transition: 0.4s;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 0.6em;
+    text-decoration: none;
 }
 
 .arrow-box:hover {
     color:#e5e5e5;
     cursor: none;
-    
+    text-decoration: none;
 }
 
+
 @keyframes move{
-    0%{margin-top: 0;}
-    50%{margin-top: 15px;}
-    100%{margin-top: 0;}
+    0%{transform: scale(1.5) translate(1em, 26em);}
+    50%{transform: scale(1.5) translate(1em, 25.5em);}
+    100%{transform: scale(1.5) translate(1em, 26em);}
 }
 
 @keyframes pulse-in {
     0%{filter:blur(1.8em)}
     50%{filter:blur(2.8em)}
     100%{filter:blur(1.8em)}
+}
+
+
+
+
+
+
+
+
+
+#about {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(0, 38em);
+}
+
+.it-juan {
+    background-image: url('/Users/juanlucasumali/Desktop/berkeley/codebase/mentoredfa22/website-juan/src/it-juan.png');
+    background-repeat: no-repeat;
+    background-size: 12em;
+    height: 15em;
+    transform: translate(40.5em, 20em);
+}
+
+.it-juan-text{
+    transform: translate(-0.2em, 13em);
+    color: #ED9562; 
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    font-style: oblique;
+    font-weight: bolder;
+    background-color: #191919;
+
+}
+
+.it-juan p:hover{
+    color: #e5e5e5; 
+}
+
+.nebulae {
+    transform: translate(-40em, 15em);
 }

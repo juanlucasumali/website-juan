@@ -9,12 +9,13 @@ body {
 
 /* Setting up NavBar site icon css. */
 .site-icon {
-  transform: translate(-3em, 0.45em);
-  height: 1.6em;
-  width: 1.6em;
+  transform: translate(-1.9em, 0.42em);
+  height: 1em;
+  width: 1em;
   border-radius: 50em;
   display: flex;
   position: relative;
+  transition: 0.3s;
   
   background-color: #191919;
 }
@@ -41,10 +42,11 @@ body {
   align-items: baseline;
 
   gap: 2rem;
-  padding: 0 5.5em;
+  padding: 0em 5.5em;
   margin-top: 0em;
   margin-bottom: 1em;
   z-index: 1;
+  height: 4em;
 }
 
 /* CSS for the NavBar 'lists'. */
@@ -57,16 +59,15 @@ body {
   gap: 2.5em;
   position: relative;
 
-  transform: translate(-3em, 0);
+  transform: translate(-2em, -1.8em);
 }
 
 /* Styling NavBar anchortag. */
 .navbar a{
   position: relative;
   text-decoration: none;
-  transition: 0.5s;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: bold;
   font-style: oblique;
   color: inherit; /* Initializing the text color as inherit allows for state changes (active and hover) */
@@ -75,8 +76,9 @@ body {
 }
 
 .navbar li {
-  padding-bottom: .8em;
   position: relative;
+  font-size: 0.6em;
+  transition: 0.1s;
 }
 
 /* Styling for when a NavBar item is active. */
@@ -84,10 +86,11 @@ body {
   color:#ED9562;
 }
 
+.navbar-item:active {
+  color: #ED9562 !important;
+}
+
 /* Styling for when a NavBar item is hovered over. */
 .navbar li:hover{
   color:#ED9562;
 }
-
-
-
