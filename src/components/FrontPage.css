@@ -124,7 +124,7 @@ body {
 }
 
 .it-juan-text{
-    transform: translate(-0.2em, 13em);
+    transform: translate(-1.3em, 13em);
     color: #ED9562; 
     transition: 0.5s;
     font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +132,7 @@ body {
     font-style: oblique;
     font-weight: bolder;
     background-color: #191919;
-
+    letter-spacing: 0.1em;
 }
 
 .it-juan p:hover{

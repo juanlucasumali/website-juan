@@ -1,0 +1,89 @@
+#experiences {
+    transform: translate(0, 80em);
+}
+
+.text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+}
+
+#title{
+    padding-top: 0.5em;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ED9562;
+    font-style: oblique;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    text-shadow: 6em;
+    text-shadow: 0px 3px 50px #181818;
+}
+
+#resume{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+#item{
+    padding-top: 2em;
+    font-weight: 300;
+    color: #e5e5e5;
+    width: 40em;
+    backdrop-filter: blur(100px);
+}
+
+#date{
+    font-size: 0.7em;
+    text-shadow: 0px 0px 10px #181818;
+    font-style: oblique;
+}
+
+#role{
+    font-size: 1.25em;
+    padding-top: 0.1em;
+    padding-bottom: 0.3em;
+    text-shadow: 0px 0px 10px #181818;
+    font-weight: bold;
+    color: #ED9562;
+    transition: 0.3s;
+}
+
+#role:hover {
+    color:#e5e5e5;
+    cursor:none;
+}
+
+#description {
+    text-shadow: 0px 0px 10px #181818;
+    line-height:1em;
+}
+
+#description_1{
+    font-size: 0.9em;
+}
+
+#description_2{
+    padding-top: 0.5em;
+    font-size: 0.9em;
+}
+#description_3{
+    font-size: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+#line{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 40em;
+    margin-left: 0;
+}
