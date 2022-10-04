@@ -21,7 +21,7 @@ export default function Contact(){
             />
             <SpecificLogo 
                 className="logo-img github"
-                link="https://github.com/juanlucasumali"
+                link="https://github.com/juanlucasumali" 
                 src={github}
             />
             <SpecificLogo 
