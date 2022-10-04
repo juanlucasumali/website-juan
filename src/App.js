@@ -5,6 +5,10 @@ import FrontPage from "./components/FrontPage.js";
 import Stars from './components/Stars';
 import Experience from "./pages/Experiences.js";
 import './pages/Experiences.css';
+import Projects from "./pages/Projects.js";
+import './pages/Projects.css';
+import Contact from "./pages/Contact.js";
+import './pages/Contact.css';
 
 
 
@@ -17,6 +21,10 @@ function App() {
       <div id='experience'>
       <Experience />
       </div>
+      <div >
+      <Projects />
+      </div>
+      <div><Contact /></div>
     </div>
   )
   

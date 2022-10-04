@@ -40,3 +40,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+#contacts{
+  position: relative;
+  transform: translate(0vw, 130vh);
+  z-index: -1;
+}
